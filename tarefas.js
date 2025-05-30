@@ -20,3 +20,10 @@ console.log(`Com a nova tarefa adicionada no ínico: ${tarefas}`);
 
 let primeiraTarefaRemovida = tarefas.shift();
 console.log(`Com a primeira tarefa removida: ${tarefas}`)
+
+// Etapa 5
+
+console.log(`Tem ir na academia nas tarefas? ${tarefas.includes ("Ir à academia")}`);
+
+
+
