@@ -61,6 +61,15 @@ console.table(tarefas);
 
 let listaTarefa2 = ['Passar aspirador de pó', 'Ouvir música'];
 
-console.table(`Lista combinada: ${tarefas.concat(listaTarefa2)}`);
+console.log(`Lista combinada: ${tarefas.concat(listaTarefa2).join(', ')}`);
+
+
+// Etapa 10
+
+let clone = tarefas.map(tarefa => "Fazer: " + tarefa);
+
+console.log(`Clonagem lista de Tarefas(): ${clone.join(', ')}`);
+
+
 
 
