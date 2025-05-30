@@ -1,5 +1,16 @@
 // Etapa 1
-let tarefas = ['Estudar JavaScript', 'Fazer exercícios de matemática', 'Lavar a louça', 'Comprar mercado', 'Ir à academia', 'Ler um livro', 'Fazer revisão para o teste', 'Limpar o quarto', 'Estudar para concurso', 'Organizar o computador'];
+let tarefas = [
+  "Estudar JavaScript",
+  "Fazer exercícios de matemática",
+  "Lavar a louça",
+  "Comprar mercado",
+  "Ir à academia",
+  "Ler um livro",
+  "Fazer revisão para o teste",
+  "Limpar o quarto",
+  "Estudar para concurso",
+  "Organizar o computador",
+];
 
 tarefas.push(`Jogar`, `Tomar banho`);
 console.log(`Com as novas tarefas adicionadas:`, tarefas);
@@ -19,11 +30,13 @@ console.log(`Com a nova tarefa adicionada no ínico: ${tarefas}`);
 // Etapa 4
 
 let primeiraTarefaRemovida = tarefas.shift();
-console.log(`Com a primeira tarefa removida: ${tarefas}`)
+console.log(`Com a primeira tarefa removida: ${tarefas}`);
 
 // Etapa 5
 
-console.log(`Tem ir na academia nas tarefas? ${tarefas.includes ("Ir à academia")}`);
+console.log(
+  `Tem ir na academia nas tarefas? ${tarefas.includes("Ir à academia")}`
+);
 
 // Etapa 6
 
@@ -31,7 +44,15 @@ console.log(`String separada por vírgulas: ${tarefas.join(", ")}`);
 
 // Etapa 7
 
-console.log(`Parte extraida do índice 2 ao 4: ${tarefas.slice(2,5)}`);
+console.log(`Parte extraida do índice 2 ao 4: ${tarefas.slice(2, 5)}`);
+
+// Etapa 8
+
+console.table(tarefas);
+
+let tarefasRemovidas = tarefas.splice(3, 1, "Lavar roupa");
 
 
+console.table(tarefasRemovidas);
 
+console.table(tarefas);
