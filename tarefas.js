@@ -71,5 +71,11 @@ let clone = tarefas.map(tarefa => "Fazer: " + tarefa);
 console.log(`Clonagem lista de Tarefas(): ${clone.join(', ')}`);
 
 
+// Etapa 11
+
+let listaTarefasFiltrada = tarefas.filter(tarefas => tarefas.length > 15);
+
+console.log(`A lista de tarefas filtrada (tarefas com mais de 15 letras): ${listaTarefasFiltrada}`);
+
 
 
