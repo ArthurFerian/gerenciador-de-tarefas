@@ -77,5 +77,12 @@ let listaTarefasFiltrada = tarefas.filter(tarefas => tarefas.length > 15);
 
 console.log(`A lista de tarefas filtrada (tarefas com mais de 15 letras): ${listaTarefasFiltrada}`);
 
+// Etapa 12
+
+let listaDeTarefasOrdenadas = tarefas.sort();
+
+console.log(`Lista ordenada em ordem é: ${listaDeTarefasOrdenadas} `);
+
+
 
 
