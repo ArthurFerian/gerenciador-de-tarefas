@@ -29,5 +29,9 @@ console.log(`Tem ir na academia nas tarefas? ${tarefas.includes ("Ir à academia
 
 console.log(`String separada por vírgulas: ${tarefas.join(", ")}`);
 
+// Etapa 7
+
+console.log(`Parte extraida do índice 2 ao 4: ${tarefas.slice(2,5)}`);
+
 
 
