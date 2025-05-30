@@ -56,3 +56,11 @@ let tarefasRemovidas = tarefas.splice(3, 1, "Lavar roupa");
 console.table(tarefasRemovidas);
 
 console.table(tarefas);
+
+// Etapa 9
+
+let listaTarefa2 = ['Passar aspirador de pó', 'Ouvir música'];
+
+console.table(`Lista combinada: ${tarefas.concat(listaTarefa2)}`);
+
+
